@@ -5,6 +5,8 @@ Aproveita e já dá uma moral lá no [vídeo](https://www.youtube.com/watch?v=SD
 
 Eu uso o PNETLab, mas as imagens são compatíveis com o EVE-NG.
 
+![Topologia](./assets/topology.png)
+
 ## Instruções
 
 1. Altere o hostname do roteador e do switch para (R1 e SW1, respectivamente)
