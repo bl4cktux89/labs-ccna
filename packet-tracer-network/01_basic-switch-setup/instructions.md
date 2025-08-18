@@ -8,7 +8,7 @@ Este laboratório testará sua capacidade de configurar definições básicas co
 
 **Essa é uma adaptação do lab que pode ser encontrado no link:** [Packet Tracer Network](https://www.packettracernetwork.com/labs/lab1-basicswitchsetup.html)
 
-1. Conecte-se à console do switch (duplo clique no equipamento) e configure o **hostname** como `swt`.
+1. Conecte-se à console do switch (duplo clique no equipamento) e configure o **hostname** como `sw-1`.
 
 2. Configure a mensagem do dia (**message of the day**) como `"O acesso é proibido a pessoas não autorizadas!"`.
 
@@ -39,10 +39,7 @@ Este laboratório testará sua capacidade de configurar definições básicas co
 
 9. Configure o serviço de criptografia de senhas no switch.
     - Verifique as configurações atuais do equipamento
-    - **O que foi observado?**
-    - Faça logout e depois faça o login novamente
-    - Observe novamente os pacotes referentes ao protocolo telnet
-    - **Quais são os problemas dessa configuração?**
+    - **O que foi observado e quais são os problemas dessa configuração?**
 
 10. Configure a senha para o acesso ao modo privilegiado como `"c15c0"`. A senha deve ser criptografada com **MD5**.
     - Acesse o modo privilegiado e responda aos questionamentos abaixo
@@ -60,5 +57,3 @@ Este laboratório testará sua capacidade de configurar definições básicas co
 13. Observe o comportamento do tráfego referente ao protocolo SSH e compare com o tráfego referente ao protocolo Telnet.
 
     - **Poderia explicar, de forma simples e sucinta, a diferença no funcionamento dos protocolos?**
-
-## Solução do LAB
