@@ -170,5 +170,3 @@ line vty 0 4
 no password
 login local
 ```
-
-
