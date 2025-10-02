@@ -37,7 +37,7 @@ interface vlan1
 
 ### Configuração do Lab CLI Passwords 1
 
-Para responder, basta pensar sobre o laboratório. Consulte seu material de estudo principal para o CCNA, suas anotações, e aplique a configuração no [arquivo inicial do lab](./assets/lab/16_config_lab_cli_passwords_1_inicial.zip). Depois, confira sua resposta com as [instruções para a solução do lab](./lab-solution.md) e o [lab solucionado](./assets/lab/16_config_lab_cli_passwords_1_resolvido).
+Para responder, basta pensar sobre o laboratório. Consulte seu material de estudo principal para o CCNA, suas anotações, e aplique a configuração no [arquivo inicial do lab](./assets/lab/17_config_lab_cli_passwords_2_inicial.zip). Depois, confira sua resposta com as [instruções para a solução do lab](./lab-solution.md) e o [lab solucionado](./assets/lab/17_config_lab_cli_passwords_2_resolvido).
 
 | Device | IP Address|
 | --- | --- |
