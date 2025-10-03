@@ -5,7 +5,7 @@ Este repositório reúne laboratórios práticos que utilizo para estudar e revi
 ## Fontes dos Laboratórios
 
 - **CertSkills**
-- **Packet Tracer**
+- **Packet Tracer Network**
 - **Jeremy's IT Lab**
 - **Workshops do Gustavo Kalau**
 
@@ -13,7 +13,13 @@ Observação: Este repositório organiza e referencia materiais para estudo. Res
 
 ## Estrutura do Repositório
 
-Cada diretório representa um tema/lab com um arquivo `instructions.md` e, quando aplicável, uma pasta `assets` contendo imagens de topologia e/ou arquivos compactados com as topologias.
+Cada diretório representa um tema ou laboratório, contendo:
+
+- `instructions.md`: roteiro do laboratório e objetivos.
+- `lab-solution.md`: referência de solução.
+- `assets/`: imagens de topologia, capturas de tela e arquivos `.zip` com as topologias.
+
+Lista de laboratórios disponíveis:
 
 - `01_basic-switch-configuration/`
 - `02_ethernet-lan-switching/`
@@ -33,12 +39,14 @@ Cada diretório representa um tema/lab com um arquivo `instructions.md` e, quand
 - `16_config-lab_cli-passwords-1/`
 - `17_config-lab_cli-passwords-2/`
 - `18_enabling-ssh-and-disabling-telnet/`
-
-Dentro de cada pasta, você encontrará:
-
-- `instructions.md`: roteiro do laboratório e objetivos.
-- `lab-solution.md`: referência de solução.
-- `assets/`: imagens de topologia, capturas de tela e arquivos `.zip` com as topologias.
+- `19_config-lab-switch-ip-1/`
+- `20_config-lab-login-security-1/`
+- `21_config-lab-cli-miscellany-1/`
+- `22_config-lab-switch-duplex-and-speed/`
+- `23_config-lab-switch-admin-config/`
+- `24_config-lab-switch-ip-config/`
+- `25_config-lab-cli-exploration-1/`
+- `26_config-lab-cli-exploration-2/`
 
 ## Pré-requisitos
 
@@ -50,7 +58,7 @@ Dentro de cada pasta, você encontrará:
 1. Clone o repositório.
 2. Escolha um diretório de lab (ex.: `03_basic-switch-setup/`).
 3. Leia o `instructions.md` para entender objetivos e passos.
-4. Abra a topologia correspondente na ferramenta (geralmente arquivos em `assets/` → `.zip` contendo `.unl`).
+4. Abra a topologia correspondente na ferramenta (geralmente arquivos em `assets/lab/` → `.zip` contendo `.unl`).
 5. Execute as configurações conforme o roteiro.
 6. Compare seu resultado com o `lab-solution.md` e ajuste o que for necessário.
 
