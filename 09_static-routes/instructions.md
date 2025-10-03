@@ -1,0 +1,5 @@
+# Rotas Estáticas
+
+## Instruções
+
+### Passos

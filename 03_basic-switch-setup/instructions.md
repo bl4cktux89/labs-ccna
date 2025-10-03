@@ -1,6 +1,6 @@
 # Configuração Básica de Switch
 
-![Topologia](./assets/topology.png)
+![Topologia](./assets/img/topology.png)
 
 ## **Instruções do Laboratório**
 

@@ -5,7 +5,7 @@ Aproveita e já dá uma moral lá no [vídeo](https://www.youtube.com/watch?v=Ig
 
 Eu uso o PNETLab, mas as imagens são compatíveis com o EVE-NG.
 
-![Topologia](./assets/topology.png)
+![Topologia](./assets/img/topology.png)
 
 ## Instruções
 
