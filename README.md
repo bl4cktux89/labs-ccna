@@ -4,10 +4,10 @@ Este repositório reúne laboratórios práticos que utilizo para estudar e revi
 
 ## Fontes dos Laboratórios
 
-- **CertSkills**
-- **Packet Tracer Network**
-- **Jeremy's IT Lab**
-- **Workshops do Gustavo Kalau**
+- **[CertSkills](https://www.certskills.com)**
+- **[Packet Tracer Network](https://www.packettracernetwork.com)**
+- **[Jeremy's IT Lab](https://www.jeremysitlab.com)**
+- **[Workshops do Gustavo Kalau](https://www.youtube.com/@GustavoKalau/playlists)**
 
 Observação: Este repositório organiza e referencia materiais para estudo. Respeite as licenças/termos de uso originais dos autores e cursos.
 
