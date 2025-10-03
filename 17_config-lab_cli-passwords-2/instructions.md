@@ -1,10 +1,10 @@
-# Config Lab: CLI Passwords 1
+# Config Lab: CLI Passwords 2
 
 ## Requisitos do Laboratório
 
 No blog do Wendell Odom, autor dos guias oficiais do CCNA, os labs foram criados com o Packet Tracer e o CML, aproveitando o embalo, segue o link para o lab original:
 
-- [Config Lab: CLI Passwords 1](https://www.certskills.com/clab102/)
+- [Config Lab: CLI Passwords 2](https://www.certskills.com/clab102/)
 
 Configure a senha para acessar o switch SW1 via console e telnet. Também é necessário configurar uma senha para acessar o modo privilegiado. Configure as senhas para que todos os usuários utilizem a mesma senha para acessar o modo usuário a partir do console, sem necessidade de nome de usuário individual. Da mesma forma, use uma senha única para todos os usuários que acessarem o switch via Telnet para chegar ao modo usuário.
 

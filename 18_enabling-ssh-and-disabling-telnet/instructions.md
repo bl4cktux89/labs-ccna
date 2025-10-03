@@ -1,10 +1,10 @@
-# Config Lab: CLI Passwords 1
+# Config Lab: Enabling SSH and Disabling Telnet
 
 ## Requisitos do Laboratório
 
 No blog do Wendell Odom, autor dos guias oficiais do CCNA, os labs foram criados com o Packet Tracer e o CML, aproveitando o embalo, segue o link para o lab original:
 
-- [Config Lab: CLI Passwords 1](https://www.certskills.com/clab103/)
+- [Config Lab: Enabling SSH and Disabling Telnet](https://www.certskills.com/clab103/)
 
 Você irá configurar um switch Cisco para suportar SSH e não suportar Telnet. Da perspectiva do usuário, uma tentativa de conexão via Telnet deve ser rejeitada para que o usuário nunca veja uma solicitação de senha ou nome de usuário. Os usuários de SSH devem ter o acesso permitido se fornecerem um nome de usuário e senha corretos. Para este laboratório, o switch já foi configurado para suportar IP e com senhas simples; sua tarefa é atualizar a configuração para suportar apenas SSH para usuários remotos.
 
