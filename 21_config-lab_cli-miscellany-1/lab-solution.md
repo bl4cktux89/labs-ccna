@@ -1,42 +1,16 @@
 # Respostas do Lab Abaixo
 
-Acesse o switch SW1 e aplique as seguintes configurações:
+## Comandos de Diagnóstico Avançado
 
-```cisco
-enable
-configure terminal
-alias exec shint show interfaces
-alias exec shver show version
-alias exec shrun show running-config
-line console 0
- history size 50
- logging synchronous
-line vty 0 4
- history size 50
- logging synchronous
-exit
-logging buffered 8192
-service timestamps log datetime
-end
-write memory
-```
+## Comandos de Monitoramento em Tempo Real
 
-### Explicação da Solução
+## Comandos de Análise de Tráfego
 
-1. **alias exec**: Cria atalhos para comandos comuns
-2. **history size 50**: Configura o histórico de comandos para 50 linhas
-3. **logging synchronous**: Evita interrupção de comandos por mensagens de log
-4. **logging buffered 8192**: Configura buffer de log com 8192 bytes
-5. **service timestamps log datetime**: Adiciona timestamp nas mensagens de log
-6. **write memory**: Salva a configuração na NVRAM
+## Comandos de Backup e Manutenção
 
-### Verificação
+## Comandos de Configuração Avançada
 
-Use os seguintes comandos para verificar a configuração:
+## Explicação da Solução
 
-```cisco
-show alias
-show history
-show logging
-```
+## Verificação
 
