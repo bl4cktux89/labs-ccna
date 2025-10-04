@@ -33,6 +33,8 @@ ip route 0.0.0.0 0.0.0.0 10.1.1.1
 !
 interface vlan1
  ip address 10.1.1.20 255.255.255.0
+ no shutdown
+!
 ```
 
 ### Configuração do Lab CLI Passwords 1
