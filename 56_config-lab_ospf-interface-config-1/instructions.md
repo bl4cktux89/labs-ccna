@@ -1,4 +1,4 @@
-# Config Lab: CLI Exploration
+# Config Lab: OSPF Interface Config 1
 
 Configure o OSPF para a rede do laboratório demonstrada na topologia. No entanto, não utilize a configuração tradicional com comandos network no modo de configuração do OSPF. Em vez disso, use a configuração de interface OSPF.
 
