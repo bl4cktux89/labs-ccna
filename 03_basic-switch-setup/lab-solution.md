@@ -1,6 +1,6 @@
 # Configuração Básica de Switch
 
-![Topologia](./assets/topology.png)
+![Topologia](./assets/img/topology.png)
 
 ## Solução do LAB
 
@@ -24,7 +24,7 @@ sw-1(config)#
 banner motd # O acesso e proibido a pessoas nao autorizadas! #
 ```
 
-![Banner MOTD](./assets/banner-motd.png)
+![Banner MOTD](./assets/img/banner-motd.png)
 
 3. 
 
@@ -36,7 +36,7 @@ enable password cisco
 show running-config
 ```
 
-![Senha em texto plano](./assets/plain-text-enable.png)
+![Senha em texto plano](./assets/img/plain-text-enable.png)
 
 4. 
 
@@ -75,31 +75,31 @@ ip route 0.0.0.0 0.0.0.0 192.168.1.1
 
 7. 
 
-![Monitoramento da Porta Ethernet 0/0 do SW-1](./assets/wireshark-monitor.png)
+![Monitoramento da Porta Ethernet 0/0 do SW-1](./assets/img/wireshark-monitor.png)
 
 8. 
 
-![Pacotes Telnet](./assets/telnet-packets.png)
+![Pacotes Telnet](./assets/img/telnet-packets.png)
 
-![Tráfego Telnet](./assets/telnet-0.png)
+![Tráfego Telnet](./assets/img/telnet-0.png)
 
-![Tráfego Telnet](./assets/telnet-1.png)
+![Tráfego Telnet](./assets/img/telnet-1.png)
 
-![Tráfego Telnet](./assets/telnet-2.png)
+![Tráfego Telnet](./assets/img/telnet-2.png)
 
-![Tráfego Telnet](./assets/telnet-3.png)
+![Tráfego Telnet](./assets/img/telnet-3.png)
 
-![Tráfego Telnet](./assets/telnet-4.png)
+![Tráfego Telnet](./assets/img/telnet-4.png)
 
-![Tráfego Telnet](./assets/telnet-5.png)
+![Tráfego Telnet](./assets/img/telnet-5.png)
 
-![Tráfego Telnet](./assets/telnet-6.png)
+![Tráfego Telnet](./assets/img/telnet-6.png)
 
-![Tráfego Telnet](./assets/telnet-7.png)
+![Tráfego Telnet](./assets/img/telnet-7.png)
 
-![Tráfego Telnet](./assets/telnet-8.png)
+![Tráfego Telnet](./assets/img/telnet-8.png)
 
-![Tráfego Telnet](./assets/telnet-9.png)
+![Tráfego Telnet](./assets/img/telnet-9.png)
 
 9. 
 
@@ -108,7 +108,7 @@ service password-encryption
 show running-config
 ```
 
-![Senha com criptografia fraca](./assets/enable-password.png)
+![Senha com criptografia fraca](./assets/img/enable-password.png)
 
 10.
 
@@ -116,7 +116,7 @@ show running-config
 enable secret c15c0
 ```
 
-![Senhas para o Enable Mode](./assets/secret-password-enable.png)
+![Senhas para o Enable Mode](./assets/img/secret-password-enable.png)
 
 
 11.
