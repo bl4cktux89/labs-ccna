@@ -28,11 +28,11 @@ R1
 ```cisco
 hostname R1
 !
-interface GigabitEthernet0/1
+interface ethernet0/1
  no shutdown
  ip address 192.168.4.1 255.255.255.240
 !
-interface GigabitEthernet0/2
+interface ethernet0/2
  no shutdown
  ip address 192.168.4.129 255.255.255.240
 ```
@@ -42,11 +42,11 @@ R2
 ```cisco
 hostname R2
 !
-interface GigabitEthernet0/1
+interface ethernet0/1
  no shutdown
  ip address 192.168.4.2 255.255.255.240
 !
-interface GigabitEthernet0/2
+interface ethernet0/2
  no shutdown
  ip address 192.168.2.193 255.255.255.240
  ```
