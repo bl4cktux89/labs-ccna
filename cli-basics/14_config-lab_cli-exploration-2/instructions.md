@@ -16,7 +16,7 @@ No blog do Wendell Odom, autor dos guias oficiais do CCNA, os labs foram criados
 
 ## Configuração do Lab CLI Exploration 2
 
-Para responder, basta pensar sobre o laboratório. Consulte seu material de estudo principal para o CCNA, suas anotações, e aplique a configuração no [arquivo inicial do lab](./assets/lab/26_config-lab-cli-exploration-2_inicial.zip). Depois, confira sua resposta com as [instruções para a solução do lab](./lab-solution.md) e o [lab solucionado](./assets/lab/26_config-lab-cli-exploration-2_resolvido).
+Para responder, basta pensar sobre o laboratório. Consulte seu material de estudo principal para o CCNA, suas anotações, e aplique a configuração no [arquivo inicial do lab](./assets/lab/14_config-lab-cli-exploration-2_inicial.zip). Depois, confira sua resposta com as [instruções para a solução do lab](./lab-solution.md) e o [lab solucionado](./assets/lab/14_config-lab-cli-exploration-2_resolvido).
 
 | Device | IP Address|
 | --- | --- |
