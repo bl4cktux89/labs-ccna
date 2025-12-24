@@ -22,44 +22,58 @@ Configure OSPFv2 multi-área (ou seja, OSPF para IPv4) nos quatro roteadores mos
 
 ## Configuração Inicial
 
+![Topologia Pnetlab](./assets/img/01-pnet-topology.png)
+
 - CORE1:
 
 ```cisco
-hostname Core1
+hostname CORE1
 !
-interface GigabitEthernet0/1
+interface Ethernet0/1
  ip address 172.30.1.129 255.255.255.252
  no shutdown
 !
-interface GigabitEthernet0/2
+interface Ethernet0/2
  ip address 172.30.1.193 255.255.255.248
+ no shutdown
+!
+interface Loopback 0
+ ip address 1.1.1.1 255.255.255.255
  no shutdown
 ```
 
 - CORE2:
 
 ```cisco
-hostname Core2
+hostname CORE2
 !
-interface GigabitEthernet0/1
+interface Ethernet0/1
  ip address 172.30.1.130 255.255.255.252
  no shutdown
 !
-interface GigabitEthernet0/2
+interface Ethernet0/2
  ip address 172.30.1.201 255.255.255.248
+ no shutdown
+!
+interface Loopback 0
+ ip address 2.2.2.2 255.255.255.255
  no shutdown
 ```
 
 - BRANCH1:
 
 ```cisco
-hostname Branch1
+hostname BRANCH1
 !
-interface GigabitEthernet0/1
+interface Ethernet0/1
  ip address 172.30.1.194 255.255.255.248
  no shutdown
 !
-interface GigabitEthernet0/2
+interface Loopback 0
+ ip address 172.30.99.1 255.255.255.255
+ no shutdown
+!
+interface Loopback 1
  ip address 172.30.1.1 255.255.255.192
  no shutdown
 ```
@@ -67,13 +81,17 @@ interface GigabitEthernet0/2
 - BRANCH2:
 
 ```cisco
-hostname Branch2
+hostname BRANCH2
 !
-interface GigabitEthernet0/1
+interface Ethernet0/1
  ip address 172.30.1.202 255.255.255.248
  no shutdown
 !
-interface GigabitEthernet0/2
+interface Loopback 0
+ ip address 172.30.99.2 255.255.255.255
+ no shutdown
+!
+interface Loopback 1
  ip address 172.30.1.65 255.255.255.192
  no shutdown
 ```
