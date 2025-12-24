@@ -11,7 +11,7 @@ Ao usar o comando network do OSPF, seja em área única ou multi-área, é preci
 Configure OSPFv2 multi-área (ou seja, OSPF para IPv4) nos quatro roteadores mostrados na figura. Use o design de áreas mostrado na figura. A configuração deve usar comandos network do OSPF e não usar o subcomando ip ospf de interface. As regras específicas para este laboratório são:
 
 - Use o process-ID OSPF 10 em todos os roteadores
-- Use apenas o comando network para habilitar OSPF em uma interface
+- Use apenas o comando network para habilitar OSPF nas interfaces
 - Use um comando network para cada interface do roteador mostrada na figura. Esse comando network deve usar uma máscara wildcard que corresponda a todos os endereços IP na sub-rede conectada à interface. (Nota: Adicionei esta regra no laboratório apenas para que haja uma maneira correta de responder este lab; na vida real muitas máscaras wildcard diferentes podem ser usadas.)
 - Configure router-ID's explicitamente no modo de configuração OSPF, com router ID's conforme a seguir:
   - Core1: 1.1.1.1
@@ -23,16 +23,22 @@ Configure OSPFv2 multi-área (ou seja, OSPF para IPv4) nos quatro roteadores mos
 
 ## Configuração Inicial
 
+![Topologia Pnetlab](./assets/img/01-pnet-topology.png)
+
 - CORE1:
 
 ```cisco
-hostname Core1
+hostname CORE1
 !
-interface GigabitEthernet0/1
+interface Ethernet0/1
  ip address 100.100.100.1 255.255.255.252
  no shutdown
 !
-interface GigabitEthernet0/2
+interface Loopback0
+ ip address 1.1.1.1 255.255.255.255
+ no shutdown
+!
+interface Ethernet0/2
  ip address 100.100.100.129 255.255.255.192
  no shutdown
 ```
@@ -40,13 +46,17 @@ interface GigabitEthernet0/2
 - CORE2:
 
 ```cisco
-hostname Core2
+hostname CORE2
 !
-interface GigabitEthernet0/1
+interface Ethernet0/1
  ip address 100.100.100.2 255.255.255.252
  no shutdown
 !
-interface GigabitEthernet0/2
+interface Loopback0
+ ip address 2.2.2.2 255.255.255.255
+ no shutdown
+!
+interface Ethernet0/2
  ip address 100.100.100.193 255.255.255.192
  no shutdown
 ```
@@ -54,13 +64,17 @@ interface GigabitEthernet0/2
 - BRANCH1:
 
 ```cisco
-hostname Branch1
+hostname BRANCH1
 !
-interface GigabitEthernet0/1
+interface Ethernet0/1
  ip address 100.100.100.130 255.255.255.192
  no shutdown
 !
-interface GigabitEthernet0/2
+interface Loopback0
+ ip address 10.10.10.10 255.255.255.255
+ no shutdown
+!
+interface Loopback1
  ip address 100.100.101.126 255.255.255.128
  no shutdown
 ```
@@ -68,13 +82,17 @@ interface GigabitEthernet0/2
 - BRANCH2:
 
 ```cisco
-hostname Branch2
+hostname BRANCH2
 !
-interface GigabitEthernet0/1
+interface Ethernet0/1
  ip address 100.100.100.194 255.255.255.192
  no shutdown
 !
-interface GigabitEthernet0/2
+interface Loopback0
+ ip address 20.20.20.20 255.255.255.255
+ no shutdown
+!
+interface Loopback1
  ip address 100.100.101.254 255.255.255.128
  no shutdown
 ```
