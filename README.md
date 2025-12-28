@@ -173,52 +173,52 @@ cd labs-ccna
 Para importar um lab, você deve baixar o arquivo `.zip` dentro da pasta do lab desejado. Após realizar o download, você deve acessar o seu PNETLab (o processo é muito semelhante no EVE-NG):
 
 1. Na tela inicial, clique em 'Import' conforme o exemplo abaixo:
-  ![Importando o Lab](./assets/img/00-import-lab.png)
+    ![Importando o Lab](./assets/img/00-import-lab.png)
 
 2. Selecione o arquivo e clique em 'Upload':
-  ![Escolhendo o arquivo](./assets/img/01-choose-file.png)
+    ![Escolhendo o arquivo](./assets/img/01-choose-file.png)
 
 3. Clique em 'Upload' na coluna 'Actions':
-  ![Fazendo o Upload](./assets/img/02-upload.png)
+    ![Fazendo o Upload](./assets/img/02-upload.png)
 
 4. Ao final do processo, você verá uma mensagem de sucesso:
-  ![Upload realizado com sucesso](./assets/img/03-success.png)
+    ![Upload realizado com sucesso](./assets/img/03-success.png)
 
 5. Na lista de labs, aparecerá o lab que você fez o upload:
-  ![Lab listado](./assets/img/04-listed-lab.png)
+    ![Lab listado](./assets/img/04-listed-lab.png)
 
 6. Clique no lab e depois em 'Open':
-  ![Abrindo o Lab](./assets/img/05-abrindo-o-lab.png)
+    ![Abrindo o Lab](./assets/img/05-abrindo-o-lab.png)
 
 7. Antes de iniciar os equipamentos, você deve fazer os procedimentos abaixo, para que os equipamentos iniciem com as configurações que deixei prontas previamente. Naquele ícone do lado esquerdo, apenas passe o mouse que irá abrir um menu de opções:
-  ![Menu de Opções](./assets/img/06-iniciando-o-lab-1.png)
+    ![Menu de Opções](./assets/img/06-iniciando-o-lab-1.png)
 
 8. Ao abrir o menu, clique em 'Setup Nodes':
-  ![Setup Nodes](./assets/img/07-iniciando-o-lab-2.png)
+    ![Setup Nodes](./assets/img/07-iniciando-o-lab-2.png)
 
 9. Clique em 'Wipe All Nodes' para limpar todas as configurações dos equipamentos:
-  ![Wipe All Nodes](./assets/img/08-iniciando-o-lab-3.png)
+    ![Wipe All Nodes](./assets/img/08-iniciando-o-lab-3.png)
 
 10. Confirme que deseja limpar as configurações clicando em 'Yes':
-  ![Wipe All Nodes? Yes!](./assets/img/09-iniciando-o-lab-4.png)
+    ![Wipe All Nodes? Yes!](./assets/img/09-iniciando-o-lab-4.png)
 
 11. Observe nas notificações ao lado direito que os nodes foram limpos:
-  ![Wiped](./assets/img/10-iniciando-o-lab-5.png)
+    ![Wiped](./assets/img/10-iniciando-o-lab-5.png)
 
 12. Abra novamente o menu de opções, depois em 'Setup Nodes' e na sequência clique em 'Set Nodes Startup-cfg To Exported':
-  ![Set Nodes Startup-cfg To Exported](./assets/img/11-iniciando-o-lab-6.png)
+    ![Set Nodes Startup-cfg To Exported](./assets/img/11-iniciando-o-lab-6.png)
 
 13. Observe nas notificações que após o boot, os equipamentos irão iniciar com as configurações que foram aplicadas previamente:
-  ![Notificação Exported](./assets/img/12-iniciando-o-lab-7.png)
+    ![Notificação Exported](./assets/img/12-iniciando-o-lab-7.png)
 
 14. Agora finalmente iremos iniciar os equipamentos. Para isso, você pode fazer individualmente ou ligar todos de uma vez. Para ligar todos de uma vez, será necessário abrir o menu de opções novamente, clicar em 'Setup Nodes' e depois clicar em 'Start All Nodes':
-  ![Start All Nodes](./assets/img/13-iniciando-o-lab-8.png)
+    ![Start All Nodes](./assets/img/13-iniciando-o-lab-8.png)
 
 15. Observe que ao aparecer o ícone de 'Play', poderemos acessar os equipamentos:
-  ![Equipments Started](./assets/img/14-iniciando-o-lab-9.png)
+    ![Equipments Started](./assets/img/14-iniciando-o-lab-9.png)
 
 16. Clique em um dos equipamentos para confirmar que ele já tem configuração aplicada, pois já deve estar com hostname:
-  ![Lab listado](./assets/img/15-iniciando-o-lab-10.png)
+    ![Lab listado](./assets/img/15-iniciando-o-lab-10.png)
 
 Para realizar a confirmação das configurações, pode variar de lab para lab, mas com os comandos abaixo já deve ser suficiente:
 
